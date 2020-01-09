@@ -1,0 +1,21 @@
+body{
+    color: #eff2f9;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#row{
+    font-size: 55px;
+}
+
+#leftCol{
+    background-color: #fed18c;
+}
+
+#midCol{
+    background-color: #58688e;
+    background-color: #58a4b0;
+}
+
+#rightCol{
+    background-color: #daa49a;
+}

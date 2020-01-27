@@ -1,12 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="AboutMe.css">
     <title>About Me</title>
 </head>
+
 <body>
-    <h1>About Me</h1>
+    <header>
+        <h1 class="display-2">About Me</h1>
+        <hr>
+        <div>
+        <a href="index.html" class="homeButton"><img src="Images/houseIcon.PNG" alt="houseIcon" id="houseIcon"></a>
+        </div>  
+    </header>
+
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <img src="Images/Me.JPG" alt="Me" id="meImg">
+            </div>
+            <div class="col" id="aboutMeText">
+                <h1>Hello!</h1>
+                <hr class="aboutMe-hr">
+                <p>I am currently a Computer Science student at Portland State University.
+                    I work as a Technical Course Support Specialist for the introductory
+                    computer science courses at PSU.
+                    I am currently a junior and will start my first internship in the spring!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" id="funFacts">
+        <h2>Fun facts about me</h2>
+        <hr id="funFacts-hr">
+        <ul>
+            <li>
+                <p>I was born and raised in Portland!</p>
+            </li>
+            <li>
+                <p>I like to cook and bake in my free time</p>
+            </li>
+            <li>
+                <p>I also like to do my own nails! - pictured below</p>
+                <!--
+                <div class="row nailsRow">
+                    <div class="col">
+                        <img src="Images/ClearNails.jpg" alt="Clear Nails" class="nails">
+                    </div>
+                    <div class="col">
+                        <img src="Images/FloralNails.jpg" alt="Floral Nails" class="nails">
+                    </div>
+                    <div class="col">
+                        <img src="Images/SparkleNails.jpg" alt="Sparkle Nails" class="nails">
+                    </div>
+                </div>
+            -->
+            </li>
+        </ul>
+
+    </section>
+
+    <section class="container nailsRow">
+        <div>
+            <img src="Images/ClearNails.jpg" alt="Clear Nails" class="nails">
+            <img src="Images/FloralNails.jpg" alt="Floral Nails" class="nails">
+            <img src="Images/SparkleNails.jpg" alt="Sparkle Nails" class="nails">
+        </div>
+    </section>
+
 </body>
+
 </html>

@@ -1,0 +1,93 @@
+body{
+    font-family: 'Oxygen', sans-serif;
+    color: #313a4e;
+    background-color: #f7f7f7;
+}
+
+section{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+.homeButton{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background-color: #eeb96a;
+    color: #f7f7f7;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 80px; 
+}
+
+#houseIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+h1{
+    display: inline-block;
+}
+
+hr{
+    border: 2px solid #eeb96a;
+    width: 500px;
+    margin-top: 0px;
+}
+
+.aboutMe-hr{
+    width: 100px; 
+    margin-left: 0px;
+}
+
+#meImg, #aboutMeText{
+    display: block;
+    margin: auto;
+}
+
+#meImg{
+    width: 250px;
+    height: 250px;
+}
+
+#aboutMeText{
+    padding-right: 10%;
+}
+
+#funFacts{
+    background-color: #eeb96ad7;
+    width: 80%;
+    padding: 30px 50px;
+    /*padding-bottom: 30px;*/
+    color: #ffffff; 
+    font-size: large;
+}
+
+#funFacts-hr{
+    border: 2px solid #313a4e;
+    width: 200px;
+    margin-left: 30px;
+}
+
+/*
+.nailsRow{
+    height: 150px;
+}
+*/
+
+.nails{
+    /*
+    width: 120px;
+    height: 150px;
+    */
+
+    margin: 10px 6.5%;
+    width: 20%;
+}

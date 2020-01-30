@@ -1,6 +1,7 @@
 body{
     color: #f2f4fa;
     background-color: #f7f7f7;
+    background-image: url('Images/Background.png');
     font-family: 'Oxygen', sans-serif;
     height: 100vh;
     width: 100vw;
@@ -8,32 +9,31 @@ body{
 
 #header{
     color: #313a4e;
+    height: 22%;
+    width: 50%;
+    background-color: #f7f7f7;
 }
 
 #row{
-    height: 90%;
+    height: 98%;
 }
 
 #leftCol{
-    /*background-color: #fed18c;*/
     background-color: #eeb96a;
 }
 #leftCol:hover{
     background-image: url('Images/Girl.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
 }
 
 #midCol{
     background-color: #313a4e;
-   /* background-color: #58a4b0;*/
 }
 #midCol:hover{
     background-image: url('Images/Dog.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
 }
 
 #rightCol{
@@ -43,7 +43,6 @@ body{
     background-image: url('Images/Leaves.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.8;
 }
 
 /* Makes the whole div a clickable area */

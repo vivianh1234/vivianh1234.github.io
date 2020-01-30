@@ -14,24 +14,6 @@ header{
     text-align: center;
 }
 
-.homeButton{
-    position: fixed;
-    top: 20px;
-    right: 30px;
-    background-color: #eeb96a;
-    color: #f7f7f7;
-    text-align: center;
-    width: 60px;
-    height: 60px;
-    border-radius: 80px; 
-}
-
-#houseIcon{
-    width: 25px;
-    height: 25px;
-    margin-top: 15px;
-}
-
 h1{
     display: inline-block;
 }
@@ -55,6 +37,8 @@ hr{
 #meImg{
     width: 250px;
     height: 250px;
+    border: 7px double #eeb96a;
+    border-radius: 150px;
 }
 
 #aboutMeText{
@@ -76,18 +60,7 @@ hr{
     margin-left: 30px;
 }
 
-/*
-.nailsRow{
-    height: 150px;
-}
-*/
-
 .nails{
-    /*
-    width: 120px;
-    height: 150px;
-    */
-
     margin: 10px 6.5%;
     width: 20%;
 }

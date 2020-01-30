@@ -1,0 +1,28 @@
+.homeButton{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    color: #f7f7f7;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 80px; 
+}
+
+.houseIcon{
+    width: 25px;
+    height: 25px;
+    margin-top: 15px;
+}
+
+#aboutMeHome{
+    background-color: #eeb96a;
+}
+
+#contactHome{
+    background-color: #313a4e;
+}
+
+#projectsHome{
+    background-color: #daa49a;
+}

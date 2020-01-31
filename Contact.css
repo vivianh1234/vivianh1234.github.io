@@ -1,0 +1,71 @@
+body{
+    background-color: #f7f7f7;
+    background-image: url('Images/Background.png');
+}
+
+header, #contactMessage{
+    text-align: center;
+}
+
+#contactMessage{
+    margin-top: 30px;
+}
+
+h1{
+    display: inline-block;
+    background-color: #f7f7f7;
+}
+
+hr{
+    border: 2px solid #313a4e;
+    width: 350px;
+    margin-top: 0px;
+}
+
+#form-hr{
+    border: 2px solid white; 
+    width: 90px;
+    margin-left: 5px;
+}
+
+form{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 450px;
+    height: 600px;
+    background-color: #313a4e;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    display: hidden;
+    border: none;
+    padding-top: 20px;
+    font-size: x-large;
+}
+
+input[type="submit"], input[type="reset"]{
+    background-color: #5a647a;
+    color: white;
+    border: none;
+    font-size: medium;
+    padding: 7px 15px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+    background-color: #313a4ecc;
+}

@@ -1,0 +1,51 @@
+body{
+    background-color: #f7f7f7;
+    background-image: url('Images/Background.png');
+    font-family: 'Oxygen', sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    display: inline-block;
+    background-color: #f7f7f7;
+    color: #daa49a;
+}
+
+hr{
+    border: 2px solid #daa49a;
+    width: 400px;
+    margin-top: 0px;
+}
+
+.card{
+    width: 60%;
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-img-top{
+    border: 5px solid #daa49a;
+    border-radius: 0px;
+}
+
+.card-body{
+    background-color: #daa49a;
+    color: #ffffff;
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover{
+    color: #313a4e;
+    text-decoration: none;
+}
+
+h6{
+    color: #f3f2f2;
+}

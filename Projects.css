@@ -20,11 +20,16 @@ hr{
     margin-top: 0px;
 }
 
+.container{
+    border: none;
+}
+
 .card{
     width: 60%;
     padding: 0px;
     margin-top: 50px;
     margin-bottom: 50px;
+    box-shadow: 10px 10px 10px grey;
 }
 
 .card-img-top{

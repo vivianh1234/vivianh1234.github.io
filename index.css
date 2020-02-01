@@ -16,6 +16,7 @@ body{
 
 #row{
     height: 98%;
+    box-shadow: 10px 10px 10px grey;
 }
 
 #leftCol{
@@ -50,5 +51,16 @@ a.fill-div{
     display: block;
     height: 100%;
     width: 100%;
-    text-decoration: none;
+}
+
+#artistCredit{
+    position: absolute;
+    bottom: 0px;
+    right: 5px;
+    margin-bottom: 0px;
+    color: #313a4e;
+}
+
+#artistCredit a{
+    color: #313a4e;
 }

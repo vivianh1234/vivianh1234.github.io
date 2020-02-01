@@ -26,3 +26,7 @@
 #projectsHome{
     background-color: #daa49a;
 }
+
+#aboutMeHome:hover, #contactHome:hover, #projectsHome:hover{
+    opacity: 0.8;
+}

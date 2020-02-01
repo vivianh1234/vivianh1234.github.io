@@ -1,6 +1,7 @@
 body{
     background-color: #f7f7f7;
     background-image: url('Images/Background.png');
+    font-family: 'Oxygen', sans-serif;
 }
 
 header, #contactMessage{
@@ -39,6 +40,7 @@ form{
     padding-left: 25px;
     padding-right: 25px;
     color: white;
+    box-shadow: 10px 10px 10px grey;
 }
 
 label{

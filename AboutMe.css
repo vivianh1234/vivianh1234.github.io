@@ -2,6 +2,7 @@ body{
     font-family: 'Oxygen', sans-serif;
     color: #313a4e;
     background-color: #f7f7f7;
+    background-image: url('Images/Background.png');
 }
 
 section{
@@ -15,6 +16,7 @@ header{
 }
 
 h1{
+    background-color: #f7f7f7;
     display: inline-block;
 }
 
@@ -22,6 +24,10 @@ hr{
     border: 2px solid #eeb96a;
     width: 500px;
     margin-top: 0px;
+}
+
+#about-section{
+    background-color: #f7f7f7;
 }
 
 .aboutMe-hr{
@@ -39,6 +45,7 @@ hr{
     height: 250px;
     border: 7px double #eeb96a;
     border-radius: 150px;
+    box-shadow: 10px 10px 10px grey;
 }
 
 #aboutMeText{
@@ -47,15 +54,15 @@ hr{
 
 #funFacts{
     background-color: #eeb96ad7;
-    width: 80%;
+    width: 75%;
     padding: 30px 50px;
-    /*padding-bottom: 30px;*/
     color: #ffffff; 
     font-size: large;
+    box-shadow: 10px 10px 10px grey;
 }
 
 #funFacts-hr{
-    border: 2px solid #313a4e;
+    border: 2px solid #ffffff;
     width: 200px;
     margin-left: 30px;
 }
@@ -63,4 +70,5 @@ hr{
 .nails{
     margin: 10px 6.5%;
     width: 20%;
+    box-shadow: 10px 10px 10px grey;
 }
